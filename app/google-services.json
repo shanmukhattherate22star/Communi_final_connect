@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "877672521682",
+    "project_id": "communiconnect-2c34a",
+    "storage_bucket": "communiconnect-2c34a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:877672521682:android:243107a9e567764dcdf20b",
+        "android_client_info": {
+          "package_name": "com.example.communiconnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "877672521682-4sv7l5i1cm6g7uo5c8khi1kpiebef4au.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyvVIgTNavfIjKM1Olrrm8KMXvbXs4cA4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "877672521682-4sv7l5i1cm6g7uo5c8khi1kpiebef4au.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
