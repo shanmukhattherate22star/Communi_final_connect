@@ -46,7 +46,7 @@ public class userforabout extends AppCompatActivity {
 
                     // Toast.makeText(getApplicationContext(),id_, Toast.LENGTH_SHORT).show();
                     user.setEmail(email);
-                    user.setId(id_);
+                  //  user.setId(id_);
                     user.setUsername(username);
                     list.add(user);
                 }

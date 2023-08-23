@@ -4,30 +4,60 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/img_2"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/viewMap"
-        android:layout_width="wrap_content"
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="MarkonMap"
-        app:layout_constraintBottom_toTopOf="@+id/viewMarker"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.539"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.669" />
+        android:layout_margin="30dp"
+        android:background="@drawable/custom_edittext"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="30dp">
 
-    <Button
-        android:id="@+id/viewMarker"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="ViewMarkers"
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="328dp"
+        android:layout_height="264dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="24dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.573" />
+        app:layout_constraintVertical_bias="0.498"
+        tools:ignore="MissingConstraints">
+
+
+        <Button
+            android:id="@+id/viewMap"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/black"
+            android:text="MARK ON MAP"
+            android:textColor="@color/antique_white"
+            android:textSize="28sp"
+            app:cornerRadius="20dp" />
+
+        <Button
+            android:id="@+id/viewMarker"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/black"
+            android:text="VIEW MARKERS"
+            android:textColor="@color/antique_white"
+            android:textSize="28sp"
+            app:cornerRadius="20dp" />
+
+    </LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -2,16 +2,16 @@ package com.example.communiconnect;
 
 public class Users {
     private String email;
-    private String id;
+   // private String id;
     private String username;
 
     public void setEmail(String email) {
         this.email = email;
     }
 
-    public void setId(String id) {
-        this.id = id;
-    }
+    //public void setId(String id) {
+   //     this.id = id;
+    //}
 
     public void setUsername(String username) {
         this.username = username;
@@ -22,9 +22,9 @@ public class Users {
 
     }
 
-    public Users(String email, String id, String username) {
+    public Users(String email, String username) {
         this.email = email;
-        this.id = id;
+      //  this.id = id;
         this.username = username;
     }
 
@@ -33,9 +33,9 @@ public class Users {
         return email;
     }
 
-    public String getLastName() {
-        return id;
-    }
+//    public String getLastName() {
+//        return id;
+//    }
 
     public String getAge() {
         return username;
